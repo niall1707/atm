@@ -9,7 +9,7 @@ C22410136
 */
 
 #include <stdio.h>
-int main() 
+int main()
 {
     //vairables
     int pin = 1234;
@@ -37,10 +37,10 @@ int main()
         if ( getchar() == '\n')
         {
 
-         /*if user inputs 1 this code will exciut verifying their pin  is correct*/
+        /*if user inputs 1 this code will exciut verifying their pin  is correct*/
             if (input == 1)
             {
-                //asks and scans for the user to input their pin 
+                //asks and scans for the user to input their pin
                 printf("please enter your PIN ");
                 scanf("%04d", &pin_entered);
 
@@ -78,7 +78,6 @@ int main()
                     printf("plesae re-enter your new pin: ");
                     scanf("%04d", &new_pin2);
                     counter = counter + 1;
-
 
                 }
                 //if both new pin entries match exciute changing the value of the orignal pin
